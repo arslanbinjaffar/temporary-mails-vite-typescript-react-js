@@ -9,7 +9,7 @@ import { Message } from "@/redux/common/types";
 
 const Inbox = () => {
   const {email,setMails}=useMailService()
-  const { data, isLoading, refetch, error } = useGetMessageByEmailQuery(email);
+  const { data, refetch } = useGetMessageByEmailQuery(email);
   const navigate=useNavigate()
   const handleRefresh = () => {
     refetch();

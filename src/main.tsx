@@ -4,7 +4,7 @@ import "./index.css"
 import App from './App'
 import { store } from '@/redux/store/store'
 import { ThemeProvider } from "@/Providers/themeProvider"
-
+import {Toaster} from '@/components/ui/toaster'
 const container = document.getElementById('root')
 
 if (container) {
@@ -14,6 +14,7 @@ if (container) {
     <Provider store={store}>
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <App />
+      <Toaster />
     </ThemeProvider>
     </Provider>,
   )

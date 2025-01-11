@@ -1,11 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useCreateNewEmailMutation } from "@/redux/services/tempMailApi";
 import { dimmyDataForCreateNewMail } from "@/redux/common/apiUrls";
 import useMailService from "@/redux/services/useMail";
 import { Copy, QrCode } from 'lucide-react';
-
+import { useToast } from "@/hooks/use-toast"
 const Hero = () => {
+  const { toast } = useToast()
+
   const [createNewEmail, { data, isLoading, isSuccess }] = useCreateNewEmailMutation();
   const { email, setEmail } = useMailService();
   const getLocalStorageEmail = localStorage.getItem("email");
@@ -16,8 +18,13 @@ const Hero = () => {
   };
 
   const handleCopy = () => {
+   
     if (email) {
       navigator.clipboard.writeText(email);
+      toast({
+        title: "Email copied",
+        
+      })
     }
   };
 
@@ -45,6 +52,7 @@ const Hero = () => {
             </p>
             <div className="flex gap-2">
               <Button
+                title="copy email"
                 variant="ghost"
                 size="icon"
                 className="bg-[#2C2C2E] hover:bg-[#3C3C3E] text-white"
