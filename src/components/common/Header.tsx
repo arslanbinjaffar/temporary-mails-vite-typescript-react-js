@@ -7,11 +7,11 @@ const Header = () => {
   const routes = [
     { path: "/", title: "Home" },
     // { path: "/:id", element: <EmailDetail />, title: "Email Detail" },
-    { path: "/privacy-policy",  title: "Privacy Policy" },
-    { path: "/faqs", title: "FAQs" },
-    { path: "/termsservices", title: "Terms of Service" },
-    { path: "/blog",  title: "Blog" },
-    { path: "/contactus",  title: "Contact Us" },
+    { path: "privacy-policy",  title: "Privacy Policy" },
+    { path: "faqs", title: "FAQs" },
+    { path: "termsservices", title: "Terms of Service" },
+    { path: "blog",  title: "Blog" },
+    { path: "contactus",  title: "Contact Us" },
   ];
   
   return (
