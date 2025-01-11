@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
-
+import logo from '/image.png'
 const Header = () => {
   const navigate = useNavigate();
   
@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header className="border-b bg-background text-foreground flex justify-between items-center w-full px-5">
-      <img src="/image.png" alt="logo" />
+      <img src={logo} alt="logo" />
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <nav>
           <ul className="flex space-x-4">
