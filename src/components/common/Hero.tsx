@@ -35,6 +35,9 @@ const Hero = () => {
     if (getLocalStorageEmail) {
       setEmail(getLocalStorageEmail);
     }
+    if (email == "") {
+      createNewEmail(dimmyDataForCreateNewMail);
+    }
   }, [isSuccess, data]);
 
   return (
