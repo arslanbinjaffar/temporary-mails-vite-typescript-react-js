@@ -4,7 +4,7 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
-  base: "/temp-mail-react-js",
+  base: "/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

@@ -3,12 +3,13 @@ import { Button } from "@/components/ui/button";
 import { useCreateNewEmailMutation } from "@/redux/services/tempMailApi";
 import { dimmyDataForCreateNewMail } from "@/redux/common/apiUrls";
 import useMailService from "@/redux/services/useMail";
-import { Copy, QrCode } from 'lucide-react';
-import { useToast } from "@/hooks/use-toast"
+import { Copy, QrCode } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
 const Hero = () => {
-  const { toast } = useToast()
+  const { toast } = useToast();
 
-  const [createNewEmail, { data, isLoading, isSuccess }] = useCreateNewEmailMutation();
+  const [createNewEmail, { data, isLoading, isSuccess }] =
+    useCreateNewEmailMutation();
   const { email, setEmail } = useMailService();
   const getLocalStorageEmail = localStorage.getItem("email");
 
@@ -18,13 +19,11 @@ const Hero = () => {
   };
 
   const handleCopy = () => {
-   
     if (email) {
       navigator.clipboard.writeText(email);
       toast({
         title: "Email copied",
-        
-      })
+      });
     }
   };
 
@@ -39,7 +38,7 @@ const Hero = () => {
   }, [isSuccess, data]);
 
   return (
-    <section className="py-16 bg-[#1C1C1E] min-h-[calc(100vh-64px)] flex flex-col items-center justify-center px-4">
+    <section className="py-8 bg-[#1C1C1E] flex flex-col items-center justify-center px-4">
       <div className="w-full max-w-3xl mx-auto">
         <h1 className="text-2xl md:text-3xl font-bold mb-8 text-center text-white">
           Your Temporary Email Address
@@ -91,4 +90,3 @@ const Hero = () => {
 };
 
 export default Hero;
-

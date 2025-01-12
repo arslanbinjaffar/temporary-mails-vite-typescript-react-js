@@ -12,9 +12,17 @@ import Faqs from "./pages/faqs/index";
 const routes = [
   { path: "/", element: <Home />, title: "Home" },
   { path: "/:id", element: <EmailDetail />, title: "Email Detail" },
-  { path: "/privacy-policy", element: <PrivacyPolicy />, title: "Privacy Policy" },
+  {
+    path: "/privacy-policy",
+    element: <PrivacyPolicy />,
+    title: "Privacy Policy",
+  },
   { path: "/faqs", element: <Faqs />, title: "FAQs" },
-  { path: "/termsservices", element: <TermsOfService />, title: "Terms of Service" },
+  {
+    path: "/termsservices",
+    element: <TermsOfService />,
+    title: "Terms of Service",
+  },
   { path: "/blog", element: <Blog />, title: "Blog" },
   { path: "/contactus", element: <Contactus />, title: "Contact Us" },
 ];
