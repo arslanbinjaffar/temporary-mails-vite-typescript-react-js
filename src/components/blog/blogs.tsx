@@ -49,7 +49,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="what-is-a-temporary-email.php" class="btn btn-primary">Read More</a>
+        <a href="/blog/1" class="btn btn-primary">Read More</a>
       </div>
     </div>
      </div>
@@ -72,7 +72,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="top-10-use-cases-for-temporary-email-services.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/2" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -96,39 +96,10 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="temporary-email-vs-permanent-email-which-one-do-you-need.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/3" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
-
-
-
-
-
-
-
-
-
-            <div class="col-md-4 mt-4">
-                
-           
-    <div class="">
-      <img src=${blog3} class="card-img-top" alt="Card Image">
-      <div class="card-body">
-          <br>
-        <h5 class=" pt-1" style="font-size:20px;">How to Protect Your Privacy Online with Temporary Email</h5>
-       
-        <p class="card-text pt-2">
-            
-            In an era where our digital footprints are constantly expanding, protecting privacy online has become more crucial than ever. From signing up for newsletters to registering on websites, sharing your email address has become a routine part of online activities. Unfortunately, this can expose you to risks such as spam, phishing attempts, and even data breaches. One effective way to safeguard your online privacy is by using temporary email services...
-            
-            </p>
-            <br>
-        <a href="how-to-protect-your-privacy-online-with-temporary-email.php" class="btn btn-primary">Read More</a> 
-      </div>
-    </div>
-     </div>
-
 
 
 
@@ -145,15 +116,15 @@ const BlogsContent = () => {
       <img src=${blog4} class="card-img-top" alt="Card Image">
       <div class="card-body">
           <br>
-        <h5 class=" pt-1" style="font-size:20px;">Are Temporary Emails Safe? Security Risks and Solutions</h5>
+        <h5 class=" pt-1" style="font-size:20px;">How to Protect Your Privacy Online with Temporary Email</h5>
        
         <p class="card-text pt-2">
             
-           In an time where our computerized impressions are always extending, ensuring protection online has ended up more vital than ever. From marking up for bulletins to enrolling on websites, sharing your e-mail address has gotten to be a schedule portion of online exercises. Shockingly, this can uncover you to dangers such as spam, phishing endeavors, and indeed information breaches. One successful way to protect your online protection is by utilizing transitory e-mail services...
+            In an era where our digital footprints are constantly expanding, protecting privacy online has become more crucial than ever. From signing up for newsletters to registering on websites, sharing your email address has become a routine part of online activities. Unfortunately, this can expose you to risks such as spam, phishing attempts, and even data breaches. One effective way to safeguard your online privacy is by using temporary email services...
             
             </p>
             <br>
-        <a href="are-temporary-emails-safe-security-risks-and-solutions.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/4" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -174,15 +145,15 @@ const BlogsContent = () => {
       <img src=${blog5} class="card-img-top" alt="Card Image">
       <div class="card-body">
           <br>
-        <h5 class=" pt-1" style="font-size:20px;">The Best Practices for Using Temporary Email Services</h5>
+        <h5 class=" pt-1" style="font-size:20px;">Are Temporary Emails Safe? Security Risks and Solutions</h5>
        
         <p class="card-text pt-2">
             
-            Brief mail administrations have revolutionized how we associated with the computerized world. By giving a short-term arrangement for mail communications, these administrations offer comfort, namelessness, and upgraded protection. Whether you’re enrolling on a site, marking up for a free trial, or maintaining a strategic distance from spam, transitory e-mail addresses can be important. Be that as it may, to maximize their benefits and minimize potential dangers, it’s basic to take after best practices...
+           In an time where our computerized impressions are always extending, ensuring protection online has ended up more vital than ever. From marking up for bulletins to enrolling on websites, sharing your e-mail address has gotten to be a schedule portion of online exercises. Shockingly, this can uncover you to dangers such as spam, phishing endeavors, and indeed information breaches. One successful way to protect your online protection is by utilizing transitory e-mail services...
             
             </p>
             <br>
-        <a href="the-best-practices-for-using-temporary-email-services.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/5" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -203,6 +174,35 @@ const BlogsContent = () => {
       <img src=${blog6} class="card-img-top" alt="Card Image">
       <div class="card-body">
           <br>
+        <h5 class=" pt-1" style="font-size:20px;">The Best Practices for Using Temporary Email Services</h5>
+       
+        <p class="card-text pt-2">
+            
+            Brief mail administrations have revolutionized how we associated with the computerized world. By giving a short-term arrangement for mail communications, these administrations offer comfort, namelessness, and upgraded protection. Whether you’re enrolling on a site, marking up for a free trial, or maintaining a strategic distance from spam, transitory e-mail addresses can be important. Be that as it may, to maximize their benefits and minimize potential dangers, it’s basic to take after best practices...
+            
+            </p>
+            <br>
+        <a href="/blog/6" class="btn btn-primary">Read More</a> 
+      </div>
+    </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+            <div class="col-md-4 mt-4">
+                
+           
+    <div class="">
+      <img src=${blog7} class="card-img-top" alt="Card Image">
+      <div class="card-body">
+          <br>
         <h5 class=" pt-1" style="font-size:20px;">How Temporary Emails Help Businesses and Freelancers</h5>
        
         <p class="card-text pt-2">
@@ -211,7 +211,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="how-temporary-emails-help-businesses-and-freelancers.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/7" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -242,7 +242,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="what-is-a-temporary-email-and-why-you-need-one-in-2024.php" class="btn btn-primary">Read More</a> 
+        <a href="blog/8"  class="btn btn-primary cursor-pointer">Read More</a> 
       </div>
     </div>
      </div>
@@ -273,7 +273,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="top-10-benefits-of-using-temporary-email-for-online-privacy.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/9" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -305,7 +305,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="how-to-avoid-spam-emails-with-temporary-email-services.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/10" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -334,7 +334,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="temporary-email-vs-permanent-email-whats-the-difference.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/11" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -364,7 +364,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="how-to-stay-anonymous-online-with-temporary-email-accounts.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/12" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -395,7 +395,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="5-common-myths-about-temporary-email-services-debunked.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/13" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -428,7 +428,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="5-common-myths-about-temporary-email-services-debunked.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/14" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -464,7 +464,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="step-by-step-guide-to-creating-a-temporary-email-address.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/15" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -488,7 +488,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="top-7-temporary-email-providers-you-can-trust-in-2024.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/16" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -511,7 +511,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="how-temporary-email-can-improve-your-digital-privacy.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/17" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -535,7 +535,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="avoid-spam-and-protect-your-inbox-with-free-temporary-email.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/18" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -560,7 +560,7 @@ const BlogsContent = () => {
             
             </p>
             <br>
-        <a href="the-need-for-online-security.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/19" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -592,7 +592,7 @@ Mention how this article will discuss what temporary emails are, their benefits,
             
             </p>
             <br>
-        <a href="how-to-sign-up-for-free-trials-without-junk-emails.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/20" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -622,7 +622,7 @@ Mention how this article will discuss what temporary emails are, their benefits,
             
             </p>
             <br>
-        <a href="temporary-email-for-developers-a-must-have-tool.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/21" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -654,7 +654,7 @@ Mention how this article will discuss what temporary emails are, their benefits,
             
             </p>
             <br>
-        <a href="top-5-reasons-temporary-emails-are-essential-for-freelancers-in-2024.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/22" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -695,7 +695,7 @@ Why People Need Temporary Emails in 2024
             
             </p>
             <br>
-        <a href="how-temporary-email-prevents-your-data-from-being-sold-online.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/23" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -730,7 +730,7 @@ Why People Need Temporary Emails in 2024
 In the digital age, privacy and security concerns are more prominent than ever. Every time you sign up for a new online service, you are often required to provide your email address. However, this email can become a target for spam, unwanted subscriptions, or even malicious attacks. Temporary email services provide a solution to this problem, offering users a disposable, anonymous way to interact with online platforms. But what exactly is a temporary email, and why should you consider using one in 2024? Let’s explore the concept and the benefits of temporary emails in today’s world......
             </p>
             <br>
-        <a href="what-is-a-temporary-email-and-why-you-need-one-in-2024.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/24" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -773,7 +773,7 @@ Types of Temporary Email Services
 Web-based services: Platforms like 10MinuteMail, Guerilla Mail, etc......
             </p>
             <br>
-        <a href="how-to-use-temporary-email-for-social-media-sign-ups.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/25" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -809,7 +809,7 @@ Web-based services: Platforms like 10MinuteMail, Guerilla Mail, etc......
 In today’s digital age, our email addresses have become a key gateway to the internet. From signing up for online services to communicating with friends, colleagues, and brands, we rely on email for nearly every aspect of our online lives. However, there’s a growing concern over the risks associated with sharing your personal email address indiscriminately....
             </p>
             <br>
-        <a href="the-dangers-of-using-your-personal-email-everywhere-online.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/26" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -847,7 +847,7 @@ In today’s digital age, our email addresses have become a key gateway to the i
 In today's digital age, online privacy and security are of paramount importance. As the world becomes more connected through email and social media, the risks associated with sharing personal information online increase. From phishing attacks to data breaches, the dangers are ever-present. One effective tool that can bolster your cybersecurity is the use of temporary email addresses. These disposable emails provide an extra layer of protection against spam, identity theft, and unwanted tracking. This article explores the benefits of using temporary email addresses, how they work, and how they can enhance your online security.....
             </p>
             <br>
-        <a href="understanding-temporary-email-addresses.php" class="btn btn-primary">Read More</a> 
+        <a href="/blog/27" class="btn btn-primary">Read More</a> 
       </div>
     </div>
      </div>
@@ -877,7 +877,7 @@ In today's digital age, online privacy and security are of paramount importance.
 
             <div class="col-md-4 mt-4">
     <div class="">
-      <img src=${blog27} class="card-img-top" alt="Card Image">
+      <img src=${blog28} class="card-img-top" alt="Card Image">
       <div class="card-body">
           <br>
         <h5 class=" pt-1" style="font-size:20px;">How to Safeguard Your Inbox from Spam and Scams
@@ -887,7 +887,7 @@ In today's digital age, online privacy and security are of paramount importance.
 In today's digital age, online privacy and security are of paramount importance. As the world becomes more connected through email and social media, the risks associated with sharing personal information online increase. From phishing attacks to data breaches, the dangers are ever-present. One effective tool that can bolster your cybersecurity is the use of temporary email addresses. These disposable emails provide an extra layer of protection against spam, identity theft, and unwanted tracking. This article explores the benefits of using temporary email addresses, how they work, and how they can enhance your online security.....
             </p>
             <br>
-        <a href="understanding-temporary-email-addresses.php" class="btn btn-primary">Read More</a> 
+       <a href="/blog/28" class="btn btn-primary">Read More</a>
       </div>
     </div>
      </div>
@@ -900,8 +900,8 @@ In today's digital age, online privacy and security are of paramount importance.
         </div>
   `;
   return (
-    <div>
-      <div contentEditable="true" dangerouslySetInnerHTML={{ __html: blogs }} />
+    <div onClick={(e) => e.stopPropagation()}>
+      <div dangerouslySetInnerHTML={{ __html: blogs }} />
     </div>
   );
 };

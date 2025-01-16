@@ -1,0 +1,130 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Header Styles */
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 15px 0;
+}
+
+section ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Highlighted Text */
+strong {
+  font-weight: bold;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Spacing and Layout */
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.br {
+  margin-bottom: 2rem;
+}
+
+/* Blog Container */
+.blog {
+  padding: 20px;
+  background-color: hsl(var(--background));
+  border-radius: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+h1,
+h2 {
+  color: hsl(var(--foreground));
+}
+
+section {
+  background: hsl(var(--card));
+  color: hsl(var(--card-foreground));
+}
+
+strong {
+  color: hsl(var(--primary));
+}
+
+a {
+  color: hsl(var(--primary));
+}
+
+a:hover {
+  text-decoration: underline;
+  color: hsl(var(--primary-foreground));
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    background-color: hsl(var(--background));
+  }
+
+  h1 {
+    font-size: 30px;
+    color: hsl(var(--foreground));
+  }
+
+  h2 {
+    font-size: 24px;
+    color: hsl(var(--foreground));
+  }
+
+  section p,
+  section ul li {
+    font-size: 14px;
+    color: hsl(var(--foreground));
+  }
+}

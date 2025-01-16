@@ -8,6 +8,7 @@ import Contactus from "./pages/contactus";
 import Blog from "./pages/blog";
 import TermsOfService from "./pages/termsservices";
 import Faqs from "./pages/faqs/index";
+import BlogDetails from "./components/blog/blogDetails";
 
 const routes = [
   { path: "/", element: <Home />, title: "Home" },
@@ -24,6 +25,7 @@ const routes = [
     title: "Terms of Service",
   },
   { path: "/blog", element: <Blog />, title: "Blog" },
+  { path: "/blog/:id", element: <BlogDetails />, title: "Blog" },
   { path: "/contactus", element: <Contactus />, title: "Contact Us" },
 ];
 
