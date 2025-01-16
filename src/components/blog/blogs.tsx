@@ -20,16 +20,16 @@ import {
   blog18,
   blog19,
   blog20,
-  blog21,
+  // blog21,
   blog22,
-  blog23,
+  // blog23,
   blog24,
   blog25,
   blog26,
-  blog27,
+  // blog27,
   blog28,
-  blog29,
-  blog30,
+  // blog29,
+  // blog30,
 } from "@/assets/index";
 const BlogsContent = () => {
   const blogs = `
