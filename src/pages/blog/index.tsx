@@ -1,10 +1,11 @@
+import BlogsContent from "@/components/blog/blogs";
 
+const Blog = () => {
+  return (
+    <>
+      <BlogsContent />
+    </>
+  );
+};
 
-const Blog=()=>{
-    return(
-<></>
-    )
-}
-
-
-export default Blog
+export default Blog;
