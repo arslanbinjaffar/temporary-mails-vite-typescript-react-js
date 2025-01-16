@@ -9,6 +9,7 @@ import Blog from "./pages/blog";
 import TermsOfService from "./pages/termsservices";
 import Faqs from "./pages/faqs/index";
 import BlogDetails from "./components/blog/blogDetails";
+import DisClaimer from "./components/disclaimer";
 
 const routes = [
   { path: "/", element: <Home />, title: "Home" },
@@ -42,6 +43,7 @@ const App = () => {
               ))}
             </Routes>
           </main>
+          <DisClaimer />
           <Footer />
         </div>
       </Router>
