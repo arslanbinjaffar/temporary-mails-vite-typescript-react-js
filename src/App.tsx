@@ -33,7 +33,7 @@ const routes = [
 const App = () => {
   return (
     <>
-      <Router basename="/temp-mail-react-js">
+      <Router>
         <div className="flex flex-col min-h-screen">
           <Header />
           <main className="flex-grow">
