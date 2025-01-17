@@ -32,7 +32,7 @@ import {
   // blog30,
 } from "@/assets/index";
 import BlogCard from "./blogCard";
-const BlogsContent = () => {
+const BlogsContent = ({ homeBlogs = -1 }: { homeBlogs?: number }) => {
   interface Blog {
     id: number;
     title: string;
@@ -303,7 +303,7 @@ const BlogsContent = () => {
     <>
       <h1 className="text-center py-5">Blogs</h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 p-5">
-        {blogsData.map((blog) => {
+        {blogsData.slice(0, homeBlogs).map((blog) => {
           return (
             <>
               <BlogCard

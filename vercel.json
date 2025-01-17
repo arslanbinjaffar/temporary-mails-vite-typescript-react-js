@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/temp-mail-react-js",
-      "destination": "/temp-mail-react-js/",
+      "destination": "/temp-mail-react-js/:path*",
       "statusCode": 301
     }
   ],
