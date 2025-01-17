@@ -2194,6 +2194,7 @@ const BlogDetails = () => {
     blogsDetails.find((blog) => blog.id === Number(id)) || blogsDetails[0];
   return (
     <>
+      <h1 className="text-center py-5">Blog Detail</h1>
       <div
         contentEditable="true"
         dangerouslySetInnerHTML={{ __html: blogContent.content }}
