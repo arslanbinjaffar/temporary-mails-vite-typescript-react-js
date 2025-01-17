@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/temp-mail-react-js",
+      "destination": "/temp-mail-react-js/",
+      "statusCode": 301
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/temp-mail-react-js/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
