@@ -1,13 +1,14 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useCreateNewEmailMutation } from "@/redux/services/tempMailApi";
 import { dimmyDataForCreateNewMail } from "@/redux/common/apiUrls";
 import useMailService from "@/redux/services/useMail";
 import { Copy, QrCode } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { QRCodeSVG } from "qrcode.react";
 const Hero = () => {
   const { toast } = useToast();
-
+  const [showQrCode, setShowQrCode] = useState(false);
   const [createNewEmail, { data, isLoading, isSuccess }] =
     useCreateNewEmailMutation();
   const { email, setEmail } = useMailService();
@@ -58,7 +59,7 @@ const Hero = () => {
                 variant="ghost"
                 size="icon"
                 className="bg-[#2C2C2E] hover:bg-[#3C3C3E] text-white"
-                onClick={() => {}}
+                onClick={() => setShowQrCode(!showQrCode)}
               >
                 <QrCode className="h-5 w-5" />
               </Button>
@@ -73,7 +74,12 @@ const Hero = () => {
             </div>
           </div>
         </div>
-
+        {showQrCode && (
+          <QRCodeSVG
+            value={email}
+            className="w-full shadow-lg border p-3 my-3"
+          />
+        )}
         <Button
           type="button"
           onClick={handleSubmit}
