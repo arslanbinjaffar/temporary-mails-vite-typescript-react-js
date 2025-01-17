@@ -49,7 +49,7 @@ const Hero = () => {
         </h1>
 
         <div className="relative w-full bg-[#2C2C2E] rounded-lg p-4 mb-8">
-          <div className="flex items-center justify-between gap-2">
+          <div className="flex items-center justify-center gap-2 flex-wrap md:justify-between">
             <p className="text-white text-lg flex-grow px-4 py-2">
               {isLoading ? "loading....." : email || "No email available"}
             </p>

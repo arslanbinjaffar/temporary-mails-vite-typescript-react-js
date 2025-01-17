@@ -32,7 +32,7 @@ function BlogCard({ title, description, id, image }: BlogCardProps) {
         <p>{description}</p>
       </CardContent>
       <CardFooter className="mt-auto">
-        <Button asChild className="w-full p-6">
+        <Button asChild className="w-full p-6 text-lg">
           <Link to={`/blog/${id}`}>Read More</Link>
         </Button>
       </CardFooter>
