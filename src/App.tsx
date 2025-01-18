@@ -29,11 +29,14 @@ const routes = [
   { path: "/blog/:id", element: <BlogDetails />, title: "Blog" },
   { path: "/contactus", element: <Contactus />, title: "Contact Us" },
 ];
-
+const baseName =
+  import.meta.env.VITE_IS_GITHUB_PAGE_DEPLOY == "true"
+    ? "temp-mail-react-js"
+    : "";
 const App = () => {
   return (
     <>
-      <Router>
+      <Router basename={baseName}>
         <div className="flex flex-col min-h-screen">
           <Header />
           <main className="flex-grow">

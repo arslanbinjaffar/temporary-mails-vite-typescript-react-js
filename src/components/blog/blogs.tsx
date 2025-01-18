@@ -305,15 +305,13 @@ const BlogsContent = ({ homeBlogs = -1 }: { homeBlogs?: number }) => {
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 p-5">
         {blogsData.slice(0, homeBlogs).map((blog) => {
           return (
-            <>
-              <BlogCard
-                description={blog.description}
-                id={blog.id}
-                title={blog.title}
-                key={blog.id}
-                image={blog.image}
-              />
-            </>
+            <BlogCard
+              description={blog.description}
+              id={blog.id}
+              title={blog.title}
+              key={blog.id}
+              image={blog.image}
+            />
           );
         })}
       </div>
