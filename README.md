@@ -48,3 +48,5 @@ export default tseslint.config({
   },
 })
 ```
+/// deployed link
+https://temp-mail-react-js.vercel.app/
